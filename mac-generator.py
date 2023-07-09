@@ -17,7 +17,7 @@ def start():
         for _ in range(0, num):
             example_mac = "00-00-00-00-00-00"
             generated_mac = RandMac(example_mac)            
-            print("[+] Generated 6-byte mac address: ",generated_mac)
+            print("[+] Oluşturulan 6 baytlık mac adresi: ",generated_mac)
             
         end = round(time.time() - start_time ,2)
         print("\n\n\t[*]Geçen toplam süre:>  ", end ,"sec")
